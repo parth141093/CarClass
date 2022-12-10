@@ -14,6 +14,8 @@ public class CarClass {
 		Car car2 = new Car("Fiat","200", 10, "Yellow");
 		car2.printData();
 		
+		Car car3 = new Car("Hyundai","i20",30,"Red");
+		car3.printData();
 		
 	}
 
@@ -43,6 +45,8 @@ class Car
 			this.model=model;
 			this.amountOfFuel=amountOfFuel;
 		}
+		
+		
 		
 		public void brake()
 		{
