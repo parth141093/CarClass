@@ -25,7 +25,7 @@ class Car
 		public String brand;
 		public String model;
 		public int amountOfFuel;
-		
+//Default constructor
 		public Car()
 		{
 			accelerate=true;
@@ -33,7 +33,7 @@ class Car
 			model="300";
 			amountOfFuel=20;
 		}
-		
+//Parameterized constructor
 		public Car(String brand,String model,int amountOfFuel)
 		{
 			accelerate=true;
