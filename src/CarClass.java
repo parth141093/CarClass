@@ -11,7 +11,7 @@ public class CarClass {
 		car1.refuel(5);
 		
 		
-		Car car2 = new Car("Fiat","200", 10);
+		Car car2 = new Car("Fiat","200", 10, "Yellow");
 		car2.printData();
 		
 		
@@ -25,6 +25,7 @@ class Car
 		public String brand;
 		public String model;
 		public int amountOfFuel;
+		public String color;
 //Default constructor
 		public Car()
 		{
@@ -32,9 +33,10 @@ class Car
 			brand="Honda";
 			model="300";
 			amountOfFuel=20;
+			color="Black";
 		}
 //Parameterized constructor
-		public Car(String brand,String model,int amountOfFuel)
+		public Car(String brand,String model,int amountOfFuel, String color)
 		{
 			accelerate=true;
 			this.brand=brand;
